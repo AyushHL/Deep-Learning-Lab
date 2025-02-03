@@ -1,0 +1,567 @@
+13.4s 1 Width: 32, Height: 32, Channels: 3
+13.4s 2 Using Device: cuda
+693.4s 3 Training Set: 50000 images, Test Set: 10000 images
+693.4s 4 Sample Tensor Shape: torch.Size([3, 32, 32]) (should be torch.Size([3, 32, 32]))
+693.9s 5 Training Size: 40000, Validation Size: 10000
+694.1s 6 Batch Tensor Shape: torch.Size([16, 3, 32, 32]), Labels Shape: torch.Size([16])
+734.4s 7 Epoch [1/500], Loss: 2.3902, Accuracy: 17.49%, Validation Loss: 1.9270, Validation Accuracy: 26.41%
+734.4s 8 ✅ Best Model Saved with Validation Accuracy: 26.41%
+773.4s 9 Epoch [2/500], Loss: 1.9357, Accuracy: 25.96%, Validation Loss: 1.7884, Validation Accuracy: 32.39%
+773.4s 10 ✅ Best Model Saved with Validation Accuracy: 32.39%
+812.4s 11 Epoch [3/500], Loss: 1.8174, Accuracy: 32.23%, Validation Loss: 1.6462, Validation Accuracy: 36.94%
+812.4s 12 ✅ Best Model Saved with Validation Accuracy: 36.94%
+851.6s 13 Epoch [4/500], Loss: 1.7317, Accuracy: 35.58%, Validation Loss: 1.5425, Validation Accuracy: 41.01%
+851.6s 14 ✅ Best Model Saved with Validation Accuracy: 41.01%
+890.8s 15 Epoch [5/500], Loss: 1.6621, Accuracy: 38.31%, Validation Loss: 1.5227, Validation Accuracy: 42.53%
+890.8s 16 ✅ Best Model Saved with Validation Accuracy: 42.53%
+930.0s 17 Epoch [6/500], Loss: 1.5998, Accuracy: 40.92%, Validation Loss: 1.4277, Validation Accuracy: 47.89%
+930.0s 18 ✅ Best Model Saved with Validation Accuracy: 47.89%
+969.3s 19 Epoch [7/500], Loss: 1.5409, Accuracy: 43.43%, Validation Loss: 1.4086, Validation Accuracy: 48.73%
+969.3s 20 ✅ Best Model Saved with Validation Accuracy: 48.73%
+1008.5s 21 Epoch [8/500], Loss: 1.4992, Accuracy: 45.46%, Validation Loss: 1.3238, Validation Accuracy: 51.56%
+1008.5s 22 ✅ Best Model Saved with Validation Accuracy: 51.56%
+1047.7s 23 Epoch [9/500], Loss: 1.4383, Accuracy: 47.89%, Validation Loss: 1.3063, Validation Accuracy: 52.70%
+1047.7s 24 ✅ Best Model Saved with Validation Accuracy: 52.70%
+1087.0s 25 Epoch [10/500], Loss: 1.3902, Accuracy: 49.84%, Validation Loss: 1.2469, Validation Accuracy: 53.50%
+1087.0s 26 ✅ Best Model Saved with Validation Accuracy: 53.50%
+1126.1s 27 Epoch [11/500], Loss: 1.3324, Accuracy: 52.25%, Validation Loss: 1.1668, Validation Accuracy: 57.68%
+1126.1s 28 ✅ Best Model Saved with Validation Accuracy: 57.68%
+1165.2s 29 Epoch [12/500], Loss: 1.2860, Accuracy: 54.12%, Validation Loss: 1.1464, Validation Accuracy: 59.78%
+1165.2s 30 ✅ Best Model Saved with Validation Accuracy: 59.78%
+1204.5s 31 Epoch [13/500], Loss: 1.2343, Accuracy: 56.18%, Validation Loss: 1.0615, Validation Accuracy: 62.04%
+1204.5s 32 ✅ Best Model Saved with Validation Accuracy: 62.04%
+1243.8s 33 Epoch [14/500], Loss: 1.2013, Accuracy: 57.55%, Validation Loss: 1.0228, Validation Accuracy: 63.51%
+1243.8s 34 ✅ Best Model Saved with Validation Accuracy: 63.51%
+1283.0s 35 Epoch [15/500], Loss: 1.1638, Accuracy: 58.80%, Validation Loss: 1.0133, Validation Accuracy: 63.99%
+1283.0s 36 ✅ Best Model Saved with Validation Accuracy: 63.99%
+1322.0s 37 Epoch [16/500], Loss: 1.1335, Accuracy: 60.09%, Validation Loss: 1.0268, Validation Accuracy: 64.22%
+1322.0s 38 ✅ Best Model Saved with Validation Accuracy: 64.22%
+1361.1s 39 Epoch [17/500], Loss: 1.1013, Accuracy: 61.32%, Validation Loss: 0.9659, Validation Accuracy: 65.87%
+1361.1s 40 ✅ Best Model Saved with Validation Accuracy: 65.87%
+1400.3s 41 Epoch [18/500], Loss: 1.0716, Accuracy: 62.57%, Validation Loss: 0.9311, Validation Accuracy: 67.50%
+1400.3s 42 ✅ Best Model Saved with Validation Accuracy: 67.50%
+1439.4s 43 Epoch [19/500], Loss: 1.0479, Accuracy: 63.32%, Validation Loss: 0.9298, Validation Accuracy: 67.76%
+1439.4s 44 ✅ Best Model Saved with Validation Accuracy: 67.76%
+1478.6s 45 Epoch [20/500], Loss: 1.0188, Accuracy: 64.70%, Validation Loss: 0.9066, Validation Accuracy: 68.38%
+1478.6s 46 ✅ Best Model Saved with Validation Accuracy: 68.38%
+1517.6s 47 Epoch [21/500], Loss: 0.9954, Accuracy: 65.25%, Validation Loss: 0.9020, Validation Accuracy: 68.35%
+1556.5s 48 Epoch [22/500], Loss: 0.9739, Accuracy: 65.97%, Validation Loss: 0.8844, Validation Accuracy: 69.73%
+1556.5s 49 ✅ Best Model Saved with Validation Accuracy: 69.73%
+1595.7s 50 Epoch [23/500], Loss: 0.9491, Accuracy: 66.99%, Validation Loss: 0.8677, Validation Accuracy: 69.81%
+1595.7s 51 ✅ Best Model Saved with Validation Accuracy: 69.81%
+1634.9s 52 Epoch [24/500], Loss: 0.9243, Accuracy: 67.58%, Validation Loss: 0.8639, Validation Accuracy: 70.10%
+1634.9s 53 ✅ Best Model Saved with Validation Accuracy: 70.10%
+1674.1s 54 Epoch [25/500], Loss: 0.9072, Accuracy: 68.23%, Validation Loss: 0.8292, Validation Accuracy: 71.14%
+1674.1s 55 ✅ Best Model Saved with Validation Accuracy: 71.14%
+1713.2s 56 Epoch [26/500], Loss: 0.8896, Accuracy: 69.00%, Validation Loss: 0.8433, Validation Accuracy: 71.24%
+1713.2s 57 ✅ Best Model Saved with Validation Accuracy: 71.24%
+1752.4s 58 Epoch [27/500], Loss: 0.8695, Accuracy: 69.78%, Validation Loss: 0.7992, Validation Accuracy: 71.94%
+1752.4s 59 ✅ Best Model Saved with Validation Accuracy: 71.94%
+1791.5s 60 Epoch [28/500], Loss: 0.8400, Accuracy: 70.80%, Validation Loss: 0.8135, Validation Accuracy: 72.27%
+1791.5s 61 ✅ Best Model Saved with Validation Accuracy: 72.27%
+1830.8s 62 Epoch [29/500], Loss: 0.8282, Accuracy: 71.09%, Validation Loss: 0.7835, Validation Accuracy: 73.00%
+1830.8s 63 ✅ Best Model Saved with Validation Accuracy: 73.00%
+1870.1s 64 Epoch [30/500], Loss: 0.8083, Accuracy: 72.00%, Validation Loss: 0.7872, Validation Accuracy: 73.27%
+1870.1s 65 ✅ Best Model Saved with Validation Accuracy: 73.27%
+1909.2s 66 Epoch [31/500], Loss: 0.7841, Accuracy: 72.84%, Validation Loss: 0.7831, Validation Accuracy: 73.13%
+1948.2s 67 Epoch [32/500], Loss: 0.7713, Accuracy: 73.38%, Validation Loss: 0.8026, Validation Accuracy: 73.27%
+1987.2s 68 Epoch [33/500], Loss: 0.7525, Accuracy: 73.98%, Validation Loss: 0.7636, Validation Accuracy: 74.34%
+1987.2s 69 ✅ Best Model Saved with Validation Accuracy: 74.34%
+2026.3s 70 Epoch [34/500], Loss: 0.7454, Accuracy: 74.17%, Validation Loss: 0.7427, Validation Accuracy: 74.55%
+2026.3s 71 ✅ Best Model Saved with Validation Accuracy: 74.55%
+2065.4s 72 Epoch [35/500], Loss: 0.7208, Accuracy: 74.76%, Validation Loss: 0.7792, Validation Accuracy: 73.87%
+2104.3s 73 Epoch [36/500], Loss: 0.7120, Accuracy: 75.28%, Validation Loss: 0.7445, Validation Accuracy: 74.47%
+2143.4s 74 Epoch [37/500], Loss: 0.6928, Accuracy: 75.63%, Validation Loss: 0.7496, Validation Accuracy: 74.28%
+2182.4s 75 Epoch [38/500], Loss: 0.6753, Accuracy: 76.53%, Validation Loss: 0.7350, Validation Accuracy: 75.32%
+2182.4s 76 ✅ Best Model Saved with Validation Accuracy: 75.32%
+2221.7s 77 Epoch [39/500], Loss: 0.6635, Accuracy: 77.03%, Validation Loss: 0.7560, Validation Accuracy: 74.83%
+2260.9s 78 Epoch [40/500], Loss: 0.6497, Accuracy: 77.48%, Validation Loss: 0.7572, Validation Accuracy: 74.54%
+2299.9s 79 Epoch [41/500], Loss: 0.6388, Accuracy: 77.79%, Validation Loss: 0.7304, Validation Accuracy: 75.59%
+2299.9s 80 ✅ Best Model Saved with Validation Accuracy: 75.59%
+2339.0s 81 Epoch [42/500], Loss: 0.6241, Accuracy: 78.31%, Validation Loss: 0.7450, Validation Accuracy: 75.56%
+2378.0s 82 Epoch [43/500], Loss: 0.6117, Accuracy: 78.79%, Validation Loss: 0.7519, Validation Accuracy: 76.07%
+2378.0s 83 ✅ Best Model Saved with Validation Accuracy: 76.07%
+2417.1s 84 Epoch [44/500], Loss: 0.5991, Accuracy: 79.15%, Validation Loss: 0.7332, Validation Accuracy: 75.60%
+2456.3s 85 Epoch [45/500], Loss: 0.5857, Accuracy: 79.70%, Validation Loss: 0.7357, Validation Accuracy: 75.59%
+2495.3s 86 Epoch [46/500], Loss: 0.5752, Accuracy: 80.09%, Validation Loss: 0.7335, Validation Accuracy: 76.04%
+2534.3s 87 Epoch [47/500], Loss: 0.5598, Accuracy: 80.61%, Validation Loss: 0.7649, Validation Accuracy: 75.42%
+2573.3s 88 Epoch [48/500], Loss: 0.5402, Accuracy: 81.38%, Validation Loss: 0.7238, Validation Accuracy: 76.19%
+2573.3s 89 ✅ Best Model Saved with Validation Accuracy: 76.19%
+2612.1s 90 Epoch [49/500], Loss: 0.5383, Accuracy: 81.62%, Validation Loss: 0.7321, Validation Accuracy: 76.18%
+2650.8s 91 Epoch [50/500], Loss: 0.5182, Accuracy: 82.03%, Validation Loss: 0.7377, Validation Accuracy: 76.03%
+2689.3s 92 Epoch [51/500], Loss: 0.5157, Accuracy: 82.13%, Validation Loss: 0.7514, Validation Accuracy: 75.68%
+2727.9s 93 Epoch [52/500], Loss: 0.4931, Accuracy: 82.90%, Validation Loss: 0.7666, Validation Accuracy: 76.12%
+2766.5s 94 Epoch [53/500], Loss: 0.4908, Accuracy: 83.28%, Validation Loss: 0.7723, Validation Accuracy: 76.42%
+2766.5s 95 ✅ Best Model Saved with Validation Accuracy: 76.42%
+2805.3s 96 Epoch [54/500], Loss: 0.4819, Accuracy: 83.37%, Validation Loss: 0.7796, Validation Accuracy: 75.89%
+2844.2s 97 Epoch [55/500], Loss: 0.4663, Accuracy: 83.96%, Validation Loss: 0.7785, Validation Accuracy: 75.36%
+2882.9s 98 Epoch [56/500], Loss: 0.4605, Accuracy: 83.97%, Validation Loss: 0.7317, Validation Accuracy: 76.74%
+2882.9s 99 ✅ Best Model Saved with Validation Accuracy: 76.74%
+2921.8s 100 Epoch [57/500], Loss: 0.4514, Accuracy: 84.28%, Validation Loss: 0.7516, Validation Accuracy: 76.96%
+2921.8s 101 ✅ Best Model Saved with Validation Accuracy: 76.96%
+2960.7s 102 Epoch [58/500], Loss: 0.4428, Accuracy: 84.83%, Validation Loss: 0.7338, Validation Accuracy: 76.46%
+2999.3s 103 Epoch [59/500], Loss: 0.4388, Accuracy: 85.02%, Validation Loss: 0.7408, Validation Accuracy: 76.93%
+3037.8s 104 Epoch [60/500], Loss: 0.4262, Accuracy: 85.33%, Validation Loss: 0.7616, Validation Accuracy: 75.55%
+3076.5s 105 Epoch [61/500], Loss: 0.4130, Accuracy: 85.69%, Validation Loss: 0.7528, Validation Accuracy: 76.95%
+3115.1s 106 Epoch [62/500], Loss: 0.4115, Accuracy: 85.97%, Validation Loss: 0.7361, Validation Accuracy: 76.29%
+3153.8s 107 Epoch [63/500], Loss: 0.3989, Accuracy: 86.34%, Validation Loss: 0.7884, Validation Accuracy: 75.65%
+3192.3s 108 Epoch [64/500], Loss: 0.3955, Accuracy: 86.48%, Validation Loss: 0.7883, Validation Accuracy: 76.27%
+3231.1s 109 Epoch [65/500], Loss: 0.3832, Accuracy: 87.01%, Validation Loss: 0.7816, Validation Accuracy: 76.36%
+3269.7s 110 Epoch [66/500], Loss: 0.3802, Accuracy: 87.00%, Validation Loss: 0.7731, Validation Accuracy: 76.42%
+3308.2s 111 Epoch [67/500], Loss: 0.3727, Accuracy: 87.30%, Validation Loss: 0.7657, Validation Accuracy: 76.74%
+3346.8s 112 Epoch [68/500], Loss: 0.3672, Accuracy: 87.63%, Validation Loss: 0.7504, Validation Accuracy: 76.64%
+3385.4s 113 Epoch [69/500], Loss: 0.3600, Accuracy: 87.80%, Validation Loss: 0.7667, Validation Accuracy: 76.43%
+3424.0s 114 Epoch [70/500], Loss: 0.3628, Accuracy: 87.58%, Validation Loss: 0.7504, Validation Accuracy: 76.66%
+3462.6s 115 Epoch [71/500], Loss: 0.3421, Accuracy: 88.39%, Validation Loss: 0.7459, Validation Accuracy: 76.65%
+3501.2s 116 Epoch [72/500], Loss: 0.3362, Accuracy: 88.59%, Validation Loss: 0.8307, Validation Accuracy: 76.80%
+3540.5s 117 Epoch [73/500], Loss: 0.3340, Accuracy: 88.68%, Validation Loss: 0.7806, Validation Accuracy: 77.48%
+3540.5s 118 ✅ Best Model Saved with Validation Accuracy: 77.48%
+3579.6s 119 Epoch [74/500], Loss: 0.3262, Accuracy: 88.92%, Validation Loss: 0.8002, Validation Accuracy: 76.71%
+3618.5s 120 Epoch [75/500], Loss: 0.3192, Accuracy: 89.13%, Validation Loss: 0.8024, Validation Accuracy: 77.30%
+3657.6s 121 Epoch [76/500], Loss: 0.3121, Accuracy: 89.47%, Validation Loss: 0.8078, Validation Accuracy: 76.27%
+3696.3s 122 Epoch [77/500], Loss: 0.3139, Accuracy: 89.35%, Validation Loss: 0.8704, Validation Accuracy: 76.35%
+3734.9s 123 Epoch [78/500], Loss: 0.3083, Accuracy: 89.51%, Validation Loss: 0.8104, Validation Accuracy: 76.16%
+3773.5s 124 Epoch [79/500], Loss: 0.2980, Accuracy: 89.81%, Validation Loss: 0.8710, Validation Accuracy: 76.30%
+3812.2s 125 Epoch [80/500], Loss: 0.2945, Accuracy: 90.00%, Validation Loss: 0.7959, Validation Accuracy: 76.60%
+3850.8s 126 Epoch [81/500], Loss: 0.2932, Accuracy: 90.11%, Validation Loss: 0.7819, Validation Accuracy: 77.90%
+3850.8s 127 ✅ Best Model Saved with Validation Accuracy: 77.90%
+3889.6s 128 Epoch [82/500], Loss: 0.2866, Accuracy: 90.29%, Validation Loss: 0.8241, Validation Accuracy: 76.86%
+3928.1s 129 Epoch [83/500], Loss: 0.2884, Accuracy: 90.50%, Validation Loss: 0.8573, Validation Accuracy: 77.03%
+3966.8s 130 Epoch [84/500], Loss: 0.2733, Accuracy: 90.83%, Validation Loss: 0.8048, Validation Accuracy: 76.75%
+4005.5s 131 Epoch [85/500], Loss: 0.2721, Accuracy: 90.88%, Validation Loss: 0.8146, Validation Accuracy: 77.39%
+4044.1s 132 Epoch [86/500], Loss: 0.2692, Accuracy: 91.09%, Validation Loss: 0.8122, Validation Accuracy: 76.72%
+4082.8s 133 Epoch [87/500], Loss: 0.2748, Accuracy: 90.90%, Validation Loss: 0.7798, Validation Accuracy: 77.19%
+4121.4s 134 Epoch [88/500], Loss: 0.2591, Accuracy: 91.22%, Validation Loss: 0.8181, Validation Accuracy: 76.58%
+4159.9s 135 Epoch [89/500], Loss: 0.2505, Accuracy: 91.57%, Validation Loss: 0.8606, Validation Accuracy: 77.41%
+4198.5s 136 Epoch [90/500], Loss: 0.2500, Accuracy: 91.70%, Validation Loss: 0.9020, Validation Accuracy: 77.34%
+4237.0s 137 Epoch [91/500], Loss: 0.2499, Accuracy: 91.55%, Validation Loss: 0.8900, Validation Accuracy: 77.60%
+4275.4s 138 Epoch [92/500], Loss: 0.2518, Accuracy: 91.66%, Validation Loss: 0.8418, Validation Accuracy: 77.28%
+4313.9s 139 Epoch [93/500], Loss: 0.2397, Accuracy: 91.99%, Validation Loss: 0.8685, Validation Accuracy: 77.19%
+4352.4s 140 Epoch [94/500], Loss: 0.2388, Accuracy: 92.12%, Validation Loss: 0.9035, Validation Accuracy: 77.25%
+4390.7s 141 Epoch [95/500], Loss: 0.2349, Accuracy: 92.16%, Validation Loss: 0.9237, Validation Accuracy: 77.58%
+4429.1s 142 Epoch [96/500], Loss: 0.2356, Accuracy: 92.15%, Validation Loss: 0.8868, Validation Accuracy: 76.93%
+4467.5s 143 Epoch [97/500], Loss: 0.2269, Accuracy: 92.45%, Validation Loss: 0.8683, Validation Accuracy: 76.83%
+4505.9s 144 Epoch [98/500], Loss: 0.2275, Accuracy: 92.41%, Validation Loss: 0.8646, Validation Accuracy: 77.50%
+4544.3s 145 Epoch [99/500], Loss: 0.2218, Accuracy: 92.66%, Validation Loss: 0.9324, Validation Accuracy: 76.85%
+4582.8s 146 Epoch [100/500], Loss: 0.2172, Accuracy: 92.84%, Validation Loss: 0.8568, Validation Accuracy: 76.65%
+4621.3s 147 Epoch [101/500], Loss: 0.2234, Accuracy: 92.59%, Validation Loss: 0.8607, Validation Accuracy: 77.08%
+4659.7s 148 Epoch [102/500], Loss: 0.2199, Accuracy: 92.71%, Validation Loss: 0.8452, Validation Accuracy: 77.47%
+4698.1s 149 Epoch [103/500], Loss: 0.2171, Accuracy: 92.95%, Validation Loss: 0.8474, Validation Accuracy: 77.44%
+4736.5s 150 Epoch [104/500], Loss: 0.2139, Accuracy: 92.94%, Validation Loss: 0.9026, Validation Accuracy: 77.08%
+4774.8s 151 Epoch [105/500], Loss: 0.2109, Accuracy: 93.04%, Validation Loss: 0.8376, Validation Accuracy: 76.68%
+4813.2s 152 Epoch [106/500], Loss: 0.2080, Accuracy: 93.10%, Validation Loss: 0.9272, Validation Accuracy: 76.98%
+4851.5s 153 Epoch [107/500], Loss: 0.2102, Accuracy: 93.18%, Validation Loss: 0.8851, Validation Accuracy: 77.10%
+4889.9s 154 Epoch [108/500], Loss: 0.2021, Accuracy: 93.49%, Validation Loss: 0.8777, Validation Accuracy: 76.61%
+4928.3s 155 Epoch [109/500], Loss: 0.2009, Accuracy: 93.52%, Validation Loss: 0.9069, Validation Accuracy: 76.47%
+4966.7s 156 Epoch [110/500], Loss: 0.2000, Accuracy: 93.43%, Validation Loss: 0.8994, Validation Accuracy: 76.96%
+5005.1s 157 Epoch [111/500], Loss: 0.1958, Accuracy: 93.61%, Validation Loss: 0.9360, Validation Accuracy: 76.95%
+5043.5s 158 Epoch [112/500], Loss: 0.1946, Accuracy: 93.66%, Validation Loss: 0.8586, Validation Accuracy: 77.06%
+5081.9s 159 Epoch [113/500], Loss: 0.1934, Accuracy: 93.67%, Validation Loss: 0.8846, Validation Accuracy: 76.97%
+5120.2s 160 Epoch [114/500], Loss: 0.1960, Accuracy: 93.66%, Validation Loss: 0.9071, Validation Accuracy: 76.88%
+5158.6s 161 Epoch [115/500], Loss: 0.1870, Accuracy: 93.81%, Validation Loss: 0.9725, Validation Accuracy: 76.85%
+5197.0s 162 Epoch [116/500], Loss: 0.1886, Accuracy: 93.85%, Validation Loss: 0.8844, Validation Accuracy: 77.32%
+5235.5s 163 Epoch [117/500], Loss: 0.1822, Accuracy: 94.05%, Validation Loss: 0.9823, Validation Accuracy: 76.86%
+5273.8s 164 Epoch [118/500], Loss: 0.1834, Accuracy: 93.99%, Validation Loss: 0.8586, Validation Accuracy: 76.49%
+5312.2s 165 Epoch [119/500], Loss: 0.1795, Accuracy: 94.03%, Validation Loss: 0.8781, Validation Accuracy: 77.30%
+5350.6s 166 Epoch [120/500], Loss: 0.1813, Accuracy: 94.04%, Validation Loss: 0.8713, Validation Accuracy: 77.58%
+5388.9s 167 Epoch [121/500], Loss: 0.1758, Accuracy: 94.22%, Validation Loss: 0.9612, Validation Accuracy: 77.16%
+5427.3s 168 Epoch [122/500], Loss: 0.1783, Accuracy: 94.09%, Validation Loss: 0.9256, Validation Accuracy: 77.20%
+5465.7s 169 Epoch [123/500], Loss: 0.1773, Accuracy: 94.26%, Validation Loss: 0.8465, Validation Accuracy: 77.34%
+5504.0s 170 Epoch [124/500], Loss: 0.1779, Accuracy: 94.32%, Validation Loss: 0.8631, Validation Accuracy: 77.50%
+5542.5s 171 Epoch [125/500], Loss: 0.1689, Accuracy: 94.59%, Validation Loss: 1.0060, Validation Accuracy: 77.04%
+5580.8s 172 Epoch [126/500], Loss: 0.1684, Accuracy: 94.42%, Validation Loss: 0.8731, Validation Accuracy: 76.94%
+5619.2s 173 Epoch [127/500], Loss: 0.1708, Accuracy: 94.51%, Validation Loss: 0.8771, Validation Accuracy: 77.50%
+5657.6s 174 Epoch [128/500], Loss: 0.1658, Accuracy: 94.58%, Validation Loss: 0.8320, Validation Accuracy: 77.52%
+5695.9s 175 Epoch [129/500], Loss: 0.1700, Accuracy: 94.49%, Validation Loss: 0.8842, Validation Accuracy: 77.11%
+5734.3s 176 Epoch [130/500], Loss: 0.1674, Accuracy: 94.58%, Validation Loss: 0.8847, Validation Accuracy: 77.38%
+5772.7s 177 Epoch [131/500], Loss: 0.1657, Accuracy: 94.71%, Validation Loss: 0.8735, Validation Accuracy: 77.58%
+5811.0s 178 Epoch [132/500], Loss: 0.1590, Accuracy: 94.84%, Validation Loss: 0.9018, Validation Accuracy: 77.47%
+5849.4s 179 Epoch [133/500], Loss: 0.1606, Accuracy: 94.75%, Validation Loss: 0.9000, Validation Accuracy: 77.46%
+5887.7s 180 Epoch [134/500], Loss: 0.1597, Accuracy: 94.98%, Validation Loss: 0.8913, Validation Accuracy: 77.25%
+5926.2s 181 Epoch [135/500], Loss: 0.1598, Accuracy: 94.97%, Validation Loss: 0.8859, Validation Accuracy: 76.79%
+5964.6s 182 Epoch [136/500], Loss: 0.1537, Accuracy: 95.03%, Validation Loss: 0.9292, Validation Accuracy: 77.01%
+6002.9s 183 Epoch [137/500], Loss: 0.1576, Accuracy: 94.93%, Validation Loss: 0.9628, Validation Accuracy: 77.48%
+6041.3s 184 Epoch [138/500], Loss: 0.1577, Accuracy: 95.05%, Validation Loss: 0.9755, Validation Accuracy: 77.56%
+6079.7s 185 Epoch [139/500], Loss: 0.1558, Accuracy: 95.02%, Validation Loss: 0.8849, Validation Accuracy: 76.99%
+6118.2s 186 Epoch [140/500], Loss: 0.1464, Accuracy: 95.32%, Validation Loss: 0.8864, Validation Accuracy: 76.90%
+6156.6s 187 Epoch [141/500], Loss: 0.1492, Accuracy: 95.26%, Validation Loss: 1.0153, Validation Accuracy: 76.79%
+6195.1s 188 Epoch [142/500], Loss: 0.1502, Accuracy: 95.28%, Validation Loss: 0.9045, Validation Accuracy: 77.56%
+6233.6s 189 Epoch [143/500], Loss: 0.1467, Accuracy: 95.29%, Validation Loss: 0.8979, Validation Accuracy: 77.20%
+6272.0s 190 Epoch [144/500], Loss: 0.1409, Accuracy: 95.35%, Validation Loss: 0.8892, Validation Accuracy: 76.72%
+6310.3s 191 Epoch [145/500], Loss: 0.1456, Accuracy: 95.28%, Validation Loss: 0.9378, Validation Accuracy: 77.12%
+6348.7s 192 Epoch [146/500], Loss: 0.1454, Accuracy: 95.38%, Validation Loss: 0.9613, Validation Accuracy: 77.77%
+6387.1s 193 Epoch [147/500], Loss: 0.1468, Accuracy: 95.20%, Validation Loss: 0.8645, Validation Accuracy: 77.11%
+6425.5s 194 Epoch [148/500], Loss: 0.1441, Accuracy: 95.34%, Validation Loss: 0.9481, Validation Accuracy: 76.80%
+6464.0s 195 Epoch [149/500], Loss: 0.1450, Accuracy: 95.34%, Validation Loss: 0.8971, Validation Accuracy: 77.28%
+6502.4s 196 Epoch [150/500], Loss: 0.1456, Accuracy: 95.44%, Validation Loss: 0.9773, Validation Accuracy: 77.31%
+6540.7s 197 Epoch [151/500], Loss: 0.1399, Accuracy: 95.38%, Validation Loss: 0.9674, Validation Accuracy: 76.75%
+6579.1s 198 Epoch [152/500], Loss: 0.1399, Accuracy: 95.60%, Validation Loss: 0.9814, Validation Accuracy: 77.13%
+6617.5s 199 Epoch [153/500], Loss: 0.1413, Accuracy: 95.45%, Validation Loss: 0.8587, Validation Accuracy: 77.27%
+6655.9s 200 Epoch [154/500], Loss: 0.1461, Accuracy: 95.51%, Validation Loss: 0.8534, Validation Accuracy: 76.81%
+6694.3s 201 Epoch [155/500], Loss: 0.1378, Accuracy: 95.65%, Validation Loss: 1.0393, Validation Accuracy: 77.44%
+6732.7s 202 Epoch [156/500], Loss: 0.1348, Accuracy: 95.75%, Validation Loss: 0.9978, Validation Accuracy: 77.43%
+6771.0s 203 Epoch [157/500], Loss: 0.1411, Accuracy: 95.40%, Validation Loss: 0.9237, Validation Accuracy: 77.45%
+6809.5s 204 Epoch [158/500], Loss: 0.1316, Accuracy: 95.86%, Validation Loss: 0.9528, Validation Accuracy: 77.22%
+6847.9s 205 Epoch [159/500], Loss: 0.1316, Accuracy: 95.87%, Validation Loss: 0.9720, Validation Accuracy: 77.76%
+6886.3s 206 Epoch [160/500], Loss: 0.1316, Accuracy: 95.80%, Validation Loss: 0.8885, Validation Accuracy: 77.38%
+6924.7s 207 Epoch [161/500], Loss: 0.1344, Accuracy: 95.76%, Validation Loss: 0.8937, Validation Accuracy: 76.85%
+6963.1s 208 Epoch [162/500], Loss: 0.1361, Accuracy: 95.68%, Validation Loss: 0.9746, Validation Accuracy: 77.25%
+7001.4s 209 Epoch [163/500], Loss: 0.1283, Accuracy: 95.88%, Validation Loss: 0.8741, Validation Accuracy: 77.10%
+7039.9s 210 Epoch [164/500], Loss: 0.1330, Accuracy: 95.97%, Validation Loss: 0.9037, Validation Accuracy: 77.41%
+7078.3s 211 Epoch [165/500], Loss: 0.1283, Accuracy: 95.95%, Validation Loss: 1.0793, Validation Accuracy: 77.58%
+7116.7s 212 Epoch [166/500], Loss: 0.1316, Accuracy: 95.91%, Validation Loss: 0.9759, Validation Accuracy: 77.59%
+7155.0s 213 Epoch [167/500], Loss: 0.1254, Accuracy: 95.89%, Validation Loss: 0.9416, Validation Accuracy: 77.19%
+7193.4s 214 Epoch [168/500], Loss: 0.1260, Accuracy: 96.10%, Validation Loss: 0.9236, Validation Accuracy: 77.19%
+7231.7s 215 Epoch [169/500], Loss: 0.1287, Accuracy: 95.92%, Validation Loss: 1.0087, Validation Accuracy: 77.15%
+7270.1s 216 Epoch [170/500], Loss: 0.1316, Accuracy: 95.81%, Validation Loss: 1.0561, Validation Accuracy: 76.49%
+7308.4s 217 Epoch [171/500], Loss: 0.1261, Accuracy: 95.99%, Validation Loss: 1.0056, Validation Accuracy: 76.61%
+7346.8s 218 Epoch [172/500], Loss: 0.1281, Accuracy: 95.98%, Validation Loss: 0.9254, Validation Accuracy: 76.86%
+7385.1s 219 Epoch [173/500], Loss: 0.1182, Accuracy: 96.24%, Validation Loss: 1.0052, Validation Accuracy: 77.24%
+7423.6s 220 Epoch [174/500], Loss: 0.1229, Accuracy: 96.13%, Validation Loss: 0.9561, Validation Accuracy: 76.46%
+7461.9s 221 Epoch [175/500], Loss: 0.1255, Accuracy: 96.05%, Validation Loss: 0.9616, Validation Accuracy: 77.19%
+7500.3s 222 Epoch [176/500], Loss: 0.1201, Accuracy: 96.28%, Validation Loss: 0.9849, Validation Accuracy: 77.09%
+7538.6s 223 Epoch [177/500], Loss: 0.1233, Accuracy: 96.16%, Validation Loss: 1.0006, Validation Accuracy: 76.61%
+7577.0s 224 Epoch [178/500], Loss: 0.1235, Accuracy: 96.23%, Validation Loss: 0.9032, Validation Accuracy: 77.27%
+7615.3s 225 Epoch [179/500], Loss: 0.1185, Accuracy: 96.19%, Validation Loss: 0.9180, Validation Accuracy: 77.20%
+7653.7s 226 Epoch [180/500], Loss: 0.1247, Accuracy: 96.07%, Validation Loss: 0.8955, Validation Accuracy: 77.26%
+7692.0s 227 Epoch [181/500], Loss: 0.1173, Accuracy: 96.23%, Validation Loss: 0.9309, Validation Accuracy: 77.04%
+7730.4s 228 Epoch [182/500], Loss: 0.1215, Accuracy: 96.23%, Validation Loss: 1.0591, Validation Accuracy: 76.81%
+7768.8s 229 Epoch [183/500], Loss: 0.1213, Accuracy: 96.29%, Validation Loss: 1.0477, Validation Accuracy: 76.79%
+7807.1s 230 Epoch [184/500], Loss: 0.1162, Accuracy: 96.29%, Validation Loss: 0.9599, Validation Accuracy: 77.39%
+7845.4s 231 Epoch [185/500], Loss: 0.1127, Accuracy: 96.42%, Validation Loss: 1.0472, Validation Accuracy: 77.27%
+7883.7s 232 Epoch [186/500], Loss: 0.1159, Accuracy: 96.43%, Validation Loss: 0.9188, Validation Accuracy: 77.05%
+7922.1s 233 Epoch [187/500], Loss: 0.1129, Accuracy: 96.44%, Validation Loss: 1.0829, Validation Accuracy: 77.93%
+7922.1s 234 ✅ Best Model Saved with Validation Accuracy: 77.93%
+7960.6s 235 Epoch [188/500], Loss: 0.1172, Accuracy: 96.26%, Validation Loss: 0.9378, Validation Accuracy: 77.31%
+7999.0s 236 Epoch [189/500], Loss: 0.1143, Accuracy: 96.38%, Validation Loss: 1.0286, Validation Accuracy: 77.45%
+8037.3s 237 Epoch [190/500], Loss: 0.1126, Accuracy: 96.37%, Validation Loss: 0.9741, Validation Accuracy: 77.58%
+8075.7s 238 Epoch [191/500], Loss: 0.1124, Accuracy: 96.47%, Validation Loss: 1.0698, Validation Accuracy: 77.66%
+8114.0s 239 Epoch [192/500], Loss: 0.1108, Accuracy: 96.56%, Validation Loss: 1.0093, Validation Accuracy: 77.43%
+8152.4s 240 Epoch [193/500], Loss: 0.1121, Accuracy: 96.54%, Validation Loss: 1.0434, Validation Accuracy: 77.20%
+8190.8s 241 Epoch [194/500], Loss: 0.1081, Accuracy: 96.58%, Validation Loss: 1.0302, Validation Accuracy: 77.55%
+8229.3s 242 Epoch [195/500], Loss: 0.1045, Accuracy: 96.69%, Validation Loss: 1.0869, Validation Accuracy: 76.80%
+8267.7s 243 Epoch [196/500], Loss: 0.1084, Accuracy: 96.57%, Validation Loss: 0.9494, Validation Accuracy: 77.34%
+8306.0s 244 Epoch [197/500], Loss: 0.1124, Accuracy: 96.43%, Validation Loss: 1.0593, Validation Accuracy: 77.39%
+8344.4s 245 Epoch [198/500], Loss: 0.1128, Accuracy: 96.52%, Validation Loss: 1.0122, Validation Accuracy: 77.48%
+8382.8s 246 Epoch [199/500], Loss: 0.1054, Accuracy: 96.80%, Validation Loss: 1.0500, Validation Accuracy: 77.51%
+8421.2s 247 Epoch [200/500], Loss: 0.1060, Accuracy: 96.79%, Validation Loss: 1.0485, Validation Accuracy: 77.84%
+8459.4s 248 Epoch [201/500], Loss: 0.1123, Accuracy: 96.53%, Validation Loss: 1.0261, Validation Accuracy: 77.16%
+8497.7s 249 Epoch [202/500], Loss: 0.1079, Accuracy: 96.66%, Validation Loss: 1.0116, Validation Accuracy: 77.26%
+8536.1s 250 Epoch [203/500], Loss: 0.1060, Accuracy: 96.60%, Validation Loss: 1.0024, Validation Accuracy: 77.09%
+8574.5s 251 Epoch [204/500], Loss: 0.1060, Accuracy: 96.73%, Validation Loss: 0.9128, Validation Accuracy: 77.08%
+8612.8s 252 Epoch [205/500], Loss: 0.1051, Accuracy: 96.65%, Validation Loss: 1.0866, Validation Accuracy: 77.33%
+8651.1s 253 Epoch [206/500], Loss: 0.1030, Accuracy: 96.76%, Validation Loss: 1.0638, Validation Accuracy: 76.59%
+8689.5s 254 Epoch [207/500], Loss: 0.1056, Accuracy: 96.65%, Validation Loss: 0.9543, Validation Accuracy: 77.46%
+8727.8s 255 Epoch [208/500], Loss: 0.1045, Accuracy: 96.74%, Validation Loss: 1.0086, Validation Accuracy: 78.00%
+8727.8s 256 ✅ Best Model Saved with Validation Accuracy: 78.00%
+8766.2s 257 Epoch [209/500], Loss: 0.1024, Accuracy: 96.67%, Validation Loss: 0.9527, Validation Accuracy: 77.50%
+8804.6s 258 Epoch [210/500], Loss: 0.1043, Accuracy: 96.80%, Validation Loss: 0.8959, Validation Accuracy: 77.03%
+8842.9s 259 Epoch [211/500], Loss: 0.1048, Accuracy: 96.69%, Validation Loss: 1.0019, Validation Accuracy: 77.59%
+8881.2s 260 Epoch [212/500], Loss: 0.1026, Accuracy: 96.71%, Validation Loss: 0.9244, Validation Accuracy: 76.96%
+8919.6s 261 Epoch [213/500], Loss: 0.1062, Accuracy: 96.75%, Validation Loss: 0.9427, Validation Accuracy: 77.45%
+8958.0s 262 Epoch [214/500], Loss: 0.1000, Accuracy: 96.84%, Validation Loss: 0.9578, Validation Accuracy: 77.21%
+8996.2s 263 Epoch [215/500], Loss: 0.1045, Accuracy: 96.73%, Validation Loss: 0.9983, Validation Accuracy: 76.98%
+9034.5s 264 Epoch [216/500], Loss: 0.1002, Accuracy: 96.94%, Validation Loss: 0.9479, Validation Accuracy: 77.67%
+9072.8s 265 Epoch [217/500], Loss: 0.1025, Accuracy: 96.89%, Validation Loss: 1.1084, Validation Accuracy: 77.53%
+9111.1s 266 Epoch [218/500], Loss: 0.1017, Accuracy: 96.92%, Validation Loss: 0.9316, Validation Accuracy: 76.81%
+9149.5s 267 Epoch [219/500], Loss: 0.0962, Accuracy: 96.86%, Validation Loss: 1.0854, Validation Accuracy: 76.99%
+9187.8s 268 Epoch [220/500], Loss: 0.1058, Accuracy: 96.77%, Validation Loss: 0.9054, Validation Accuracy: 77.31%
+9226.1s 269 Epoch [221/500], Loss: 0.0972, Accuracy: 96.93%, Validation Loss: 0.9835, Validation Accuracy: 76.95%
+9264.5s 270 Epoch [222/500], Loss: 0.0981, Accuracy: 96.93%, Validation Loss: 1.1855, Validation Accuracy: 77.24%
+9302.8s 271 Epoch [223/500], Loss: 0.0982, Accuracy: 96.99%, Validation Loss: 0.9905, Validation Accuracy: 77.34%
+9341.1s 272 Epoch [224/500], Loss: 0.1018, Accuracy: 96.84%, Validation Loss: 0.9098, Validation Accuracy: 76.93%
+9379.4s 273 Epoch [225/500], Loss: 0.0980, Accuracy: 96.95%, Validation Loss: 1.1096, Validation Accuracy: 77.44%
+9417.6s 274 Epoch [226/500], Loss: 0.0980, Accuracy: 96.98%, Validation Loss: 1.0916, Validation Accuracy: 77.72%
+9455.9s 275 Epoch [227/500], Loss: 0.0968, Accuracy: 97.01%, Validation Loss: 1.1183, Validation Accuracy: 76.80%
+9494.2s 276 Epoch [228/500], Loss: 0.0993, Accuracy: 96.98%, Validation Loss: 0.9749, Validation Accuracy: 77.24%
+9532.5s 277 Epoch [229/500], Loss: 0.0932, Accuracy: 97.13%, Validation Loss: 0.9431, Validation Accuracy: 77.84%
+9570.8s 278 Epoch [230/500], Loss: 0.0947, Accuracy: 97.08%, Validation Loss: 1.1650, Validation Accuracy: 77.80%
+9609.1s 279 Epoch [231/500], Loss: 0.0976, Accuracy: 96.95%, Validation Loss: 0.9886, Validation Accuracy: 77.88%
+9647.5s 280 Epoch [232/500], Loss: 0.0951, Accuracy: 97.16%, Validation Loss: 0.9627, Validation Accuracy: 77.56%
+9685.8s 281 Epoch [233/500], Loss: 0.0950, Accuracy: 97.03%, Validation Loss: 1.0513, Validation Accuracy: 77.90%
+9724.1s 282 Epoch [234/500], Loss: 0.0952, Accuracy: 97.06%, Validation Loss: 1.0236, Validation Accuracy: 77.21%
+9762.5s 283 Epoch [235/500], Loss: 0.0919, Accuracy: 97.16%, Validation Loss: 1.0507, Validation Accuracy: 77.33%
+9800.8s 284 Epoch [236/500], Loss: 0.0919, Accuracy: 97.12%, Validation Loss: 1.0814, Validation Accuracy: 77.32%
+9839.1s 285 Epoch [237/500], Loss: 0.0945, Accuracy: 97.04%, Validation Loss: 1.0079, Validation Accuracy: 77.01%
+9877.4s 286 Epoch [238/500], Loss: 0.0930, Accuracy: 97.13%, Validation Loss: 1.0045, Validation Accuracy: 77.69%
+9915.7s 287 Epoch [239/500], Loss: 0.0960, Accuracy: 96.97%, Validation Loss: 0.8935, Validation Accuracy: 77.14%
+9954.0s 288 Epoch [240/500], Loss: 0.0889, Accuracy: 97.17%, Validation Loss: 1.0789, Validation Accuracy: 77.73%
+9992.2s 289 Epoch [241/500], Loss: 0.0953, Accuracy: 96.98%, Validation Loss: 1.0190, Validation Accuracy: 77.22%
+10030.5s 290 Epoch [242/500], Loss: 0.0948, Accuracy: 97.10%, Validation Loss: 0.9884, Validation Accuracy: 77.42%
+10068.9s 291 Epoch [243/500], Loss: 0.0928, Accuracy: 97.06%, Validation Loss: 1.0162, Validation Accuracy: 77.51%
+10107.1s 292 Epoch [244/500], Loss: 0.0922, Accuracy: 97.18%, Validation Loss: 0.9759, Validation Accuracy: 76.87%
+10145.4s 293 Epoch [245/500], Loss: 0.0883, Accuracy: 97.26%, Validation Loss: 1.0583, Validation Accuracy: 77.27%
+10183.7s 294 Epoch [246/500], Loss: 0.0934, Accuracy: 97.14%, Validation Loss: 1.0629, Validation Accuracy: 77.55%
+10222.0s 295 Epoch [247/500], Loss: 0.0895, Accuracy: 97.16%, Validation Loss: 1.0014, Validation Accuracy: 77.28%
+10260.3s 296 Epoch [248/500], Loss: 0.0900, Accuracy: 97.26%, Validation Loss: 1.0547, Validation Accuracy: 77.56%
+10298.6s 297 Epoch [249/500], Loss: 0.0938, Accuracy: 97.09%, Validation Loss: 0.9778, Validation Accuracy: 76.40%
+10337.0s 298 Epoch [250/500], Loss: 0.0859, Accuracy: 97.34%, Validation Loss: 1.0146, Validation Accuracy: 77.69%
+10375.3s 299 Epoch [251/500], Loss: 0.0892, Accuracy: 97.30%, Validation Loss: 0.9527, Validation Accuracy: 77.84%
+10413.6s 300 Epoch [252/500], Loss: 0.0893, Accuracy: 97.20%, Validation Loss: 1.0161, Validation Accuracy: 77.48%
+10451.9s 301 Epoch [253/500], Loss: 0.0885, Accuracy: 97.26%, Validation Loss: 1.0828, Validation Accuracy: 77.24%
+10490.2s 302 Epoch [254/500], Loss: 0.0899, Accuracy: 97.27%, Validation Loss: 1.0334, Validation Accuracy: 77.46%
+10528.6s 303 Epoch [255/500], Loss: 0.0910, Accuracy: 97.27%, Validation Loss: 1.0940, Validation Accuracy: 77.46%
+10567.0s 304 Epoch [256/500], Loss: 0.0836, Accuracy: 97.41%, Validation Loss: 1.0478, Validation Accuracy: 75.77%
+10605.4s 305 Epoch [257/500], Loss: 0.0866, Accuracy: 97.38%, Validation Loss: 1.0959, Validation Accuracy: 77.37%
+10643.7s 306 Epoch [258/500], Loss: 0.0859, Accuracy: 97.38%, Validation Loss: 1.0170, Validation Accuracy: 76.83%
+10682.1s 307 Epoch [259/500], Loss: 0.0834, Accuracy: 97.41%, Validation Loss: 1.1532, Validation Accuracy: 77.63%
+10720.4s 308 Epoch [260/500], Loss: 0.0867, Accuracy: 97.19%, Validation Loss: 1.0298, Validation Accuracy: 77.43%
+10758.7s 309 Epoch [261/500], Loss: 0.0865, Accuracy: 97.34%, Validation Loss: 1.1898, Validation Accuracy: 77.67%
+10797.1s 310 Epoch [262/500], Loss: 0.0861, Accuracy: 97.38%, Validation Loss: 1.0107, Validation Accuracy: 77.76%
+10835.5s 311 Epoch [263/500], Loss: 0.0825, Accuracy: 97.47%, Validation Loss: 1.1192, Validation Accuracy: 77.90%
+10873.8s 312 Epoch [264/500], Loss: 0.0847, Accuracy: 97.32%, Validation Loss: 1.0028, Validation Accuracy: 77.64%
+10912.2s 313 Epoch [265/500], Loss: 0.0797, Accuracy: 97.43%, Validation Loss: 1.1151, Validation Accuracy: 77.31%
+10950.5s 314 Epoch [266/500], Loss: 0.0832, Accuracy: 97.39%, Validation Loss: 1.1482, Validation Accuracy: 77.52%
+10988.9s 315 Epoch [267/500], Loss: 0.0824, Accuracy: 97.45%, Validation Loss: 1.1076, Validation Accuracy: 77.33%
+11027.2s 316 Epoch [268/500], Loss: 0.0826, Accuracy: 97.46%, Validation Loss: 1.0169, Validation Accuracy: 77.46%
+11065.5s 317 Epoch [269/500], Loss: 0.0893, Accuracy: 97.31%, Validation Loss: 0.9921, Validation Accuracy: 78.04%
+11065.5s 318 ✅ Best Model Saved with Validation Accuracy: 78.04%
+11104.0s 319 Epoch [270/500], Loss: 0.0882, Accuracy: 97.19%, Validation Loss: 1.0317, Validation Accuracy: 77.87%
+11142.4s 320 Epoch [271/500], Loss: 0.0808, Accuracy: 97.42%, Validation Loss: 1.0330, Validation Accuracy: 77.55%
+11180.7s 321 Epoch [272/500], Loss: 0.0854, Accuracy: 97.43%, Validation Loss: 1.0192, Validation Accuracy: 77.62%
+11219.0s 322 Epoch [273/500], Loss: 0.0810, Accuracy: 97.45%, Validation Loss: 1.1757, Validation Accuracy: 77.31%
+11257.3s 323 Epoch [274/500], Loss: 0.0812, Accuracy: 97.47%, Validation Loss: 1.1253, Validation Accuracy: 77.78%
+11295.7s 324 Epoch [275/500], Loss: 0.0827, Accuracy: 97.43%, Validation Loss: 0.9080, Validation Accuracy: 77.45%
+11334.0s 325 Epoch [276/500], Loss: 0.0813, Accuracy: 97.42%, Validation Loss: 1.1638, Validation Accuracy: 77.44%
+11372.4s 326 Epoch [277/500], Loss: 0.0819, Accuracy: 97.47%, Validation Loss: 1.0845, Validation Accuracy: 77.52%
+11410.7s 327 Epoch [278/500], Loss: 0.0818, Accuracy: 97.39%, Validation Loss: 1.0492, Validation Accuracy: 77.59%
+11449.1s 328 Epoch [279/500], Loss: 0.0846, Accuracy: 97.36%, Validation Loss: 1.0560, Validation Accuracy: 77.54%
+11487.4s 329 Epoch [280/500], Loss: 0.0789, Accuracy: 97.60%, Validation Loss: 1.0024, Validation Accuracy: 78.00%
+11525.8s 330 Epoch [281/500], Loss: 0.0798, Accuracy: 97.52%, Validation Loss: 1.0388, Validation Accuracy: 78.00%
+11564.3s 331 Epoch [282/500], Loss: 0.0819, Accuracy: 97.48%, Validation Loss: 1.0248, Validation Accuracy: 78.17%
+11564.3s 332 ✅ Best Model Saved with Validation Accuracy: 78.17%
+11602.7s 333 Epoch [283/500], Loss: 0.0806, Accuracy: 97.52%, Validation Loss: 1.1137, Validation Accuracy: 78.19%
+11602.7s 334 ✅ Best Model Saved with Validation Accuracy: 78.19%
+11641.2s 335 Epoch [284/500], Loss: 0.0828, Accuracy: 97.51%, Validation Loss: 1.0086, Validation Accuracy: 77.25%
+11679.4s 336 Epoch [285/500], Loss: 0.0827, Accuracy: 97.46%, Validation Loss: 1.0212, Validation Accuracy: 77.26%
+11717.8s 337 Epoch [286/500], Loss: 0.0788, Accuracy: 97.53%, Validation Loss: 1.1406, Validation Accuracy: 77.62%
+11756.2s 338 Epoch [287/500], Loss: 0.0809, Accuracy: 97.39%, Validation Loss: 0.9930, Validation Accuracy: 77.86%
+11794.6s 339 Epoch [288/500], Loss: 0.0795, Accuracy: 97.58%, Validation Loss: 0.9680, Validation Accuracy: 77.66%
+11833.0s 340 Epoch [289/500], Loss: 0.0795, Accuracy: 97.61%, Validation Loss: 1.1396, Validation Accuracy: 77.55%
+11871.3s 341 Epoch [290/500], Loss: 0.0817, Accuracy: 97.51%, Validation Loss: 1.1122, Validation Accuracy: 77.98%
+11909.8s 342 Epoch [291/500], Loss: 0.0782, Accuracy: 97.53%, Validation Loss: 1.1149, Validation Accuracy: 77.85%
+11948.1s 343 Epoch [292/500], Loss: 0.0761, Accuracy: 97.67%, Validation Loss: 1.2802, Validation Accuracy: 77.73%
+11986.4s 344 Epoch [293/500], Loss: 0.0797, Accuracy: 97.57%, Validation Loss: 1.0594, Validation Accuracy: 77.93%
+12024.8s 345 Epoch [294/500], Loss: 0.0785, Accuracy: 97.54%, Validation Loss: 1.1608, Validation Accuracy: 77.90%
+12063.1s 346 Epoch [295/500], Loss: 0.0777, Accuracy: 97.62%, Validation Loss: 1.0201, Validation Accuracy: 77.85%
+12101.4s 347 Epoch [296/500], Loss: 0.0733, Accuracy: 97.70%, Validation Loss: 1.1858, Validation Accuracy: 78.02%
+12139.8s 348 Epoch [297/500], Loss: 0.0758, Accuracy: 97.70%, Validation Loss: 1.0902, Validation Accuracy: 78.27%
+12139.8s 349 ✅ Best Model Saved with Validation Accuracy: 78.27%
+12178.2s 350 Epoch [298/500], Loss: 0.0777, Accuracy: 97.61%, Validation Loss: 1.0710, Validation Accuracy: 77.38%
+12216.5s 351 Epoch [299/500], Loss: 0.0779, Accuracy: 97.54%, Validation Loss: 1.1902, Validation Accuracy: 77.47%
+12254.9s 352 Epoch [300/500], Loss: 0.0769, Accuracy: 97.63%, Validation Loss: 1.1065, Validation Accuracy: 77.59%
+12293.2s 353 Epoch [301/500], Loss: 0.0732, Accuracy: 97.75%, Validation Loss: 1.1273, Validation Accuracy: 77.35%
+12331.5s 354 Epoch [302/500], Loss: 0.0777, Accuracy: 97.63%, Validation Loss: 1.0187, Validation Accuracy: 77.36%
+12369.9s 355 Epoch [303/500], Loss: 0.0752, Accuracy: 97.65%, Validation Loss: 1.0514, Validation Accuracy: 78.05%
+12408.2s 356 Epoch [304/500], Loss: 0.0736, Accuracy: 97.72%, Validation Loss: 1.2028, Validation Accuracy: 78.17%
+12446.6s 357 Epoch [305/500], Loss: 0.0785, Accuracy: 97.63%, Validation Loss: 1.0577, Validation Accuracy: 77.38%
+12484.9s 358 Epoch [306/500], Loss: 0.0761, Accuracy: 97.70%, Validation Loss: 1.1047, Validation Accuracy: 77.90%
+12523.3s 359 Epoch [307/500], Loss: 0.0700, Accuracy: 97.98%, Validation Loss: 1.2487, Validation Accuracy: 77.99%
+12561.6s 360 Epoch [308/500], Loss: 0.0709, Accuracy: 97.77%, Validation Loss: 1.0940, Validation Accuracy: 76.74%
+12599.9s 361 Epoch [309/500], Loss: 0.0760, Accuracy: 97.61%, Validation Loss: 1.0604, Validation Accuracy: 77.44%
+12638.3s 362 Epoch [310/500], Loss: 0.0718, Accuracy: 97.77%, Validation Loss: 1.1195, Validation Accuracy: 77.73%
+12676.6s 363 Epoch [311/500], Loss: 0.0729, Accuracy: 97.73%, Validation Loss: 1.1418, Validation Accuracy: 77.58%
+12715.0s 364 Epoch [312/500], Loss: 0.0721, Accuracy: 97.86%, Validation Loss: 1.0230, Validation Accuracy: 77.52%
+12753.4s 365 Epoch [313/500], Loss: 0.0749, Accuracy: 97.70%, Validation Loss: 0.9858, Validation Accuracy: 77.55%
+12791.7s 366 Epoch [314/500], Loss: 0.0718, Accuracy: 97.78%, Validation Loss: 1.1604, Validation Accuracy: 77.98%
+12830.1s 367 Epoch [315/500], Loss: 0.0784, Accuracy: 97.59%, Validation Loss: 1.2027, Validation Accuracy: 77.88%
+12868.4s 368 Epoch [316/500], Loss: 0.0716, Accuracy: 97.91%, Validation Loss: 1.1145, Validation Accuracy: 78.07%
+12906.8s 369 Epoch [317/500], Loss: 0.0725, Accuracy: 97.79%, Validation Loss: 1.0763, Validation Accuracy: 77.65%
+12945.1s 370 Epoch [318/500], Loss: 0.0716, Accuracy: 97.69%, Validation Loss: 1.2686, Validation Accuracy: 77.87%
+12983.5s 371 Epoch [319/500], Loss: 0.0770, Accuracy: 97.63%, Validation Loss: 1.0862, Validation Accuracy: 77.79%
+13021.9s 372 Epoch [320/500], Loss: 0.0743, Accuracy: 97.80%, Validation Loss: 1.1915, Validation Accuracy: 78.20%
+13060.1s 373 Epoch [321/500], Loss: 0.0700, Accuracy: 97.80%, Validation Loss: 1.1542, Validation Accuracy: 77.94%
+13098.5s 374 Epoch [322/500], Loss: 0.0784, Accuracy: 97.60%, Validation Loss: 1.0360, Validation Accuracy: 77.29%
+13136.8s 375 Epoch [323/500], Loss: 0.0740, Accuracy: 97.72%, Validation Loss: 1.1508, Validation Accuracy: 77.96%
+13175.1s 376 Epoch [324/500], Loss: 0.0724, Accuracy: 97.81%, Validation Loss: 1.1370, Validation Accuracy: 78.04%
+13213.4s 377 Epoch [325/500], Loss: 0.0691, Accuracy: 97.88%, Validation Loss: 1.0263, Validation Accuracy: 77.29%
+13251.7s 378 Epoch [326/500], Loss: 0.0730, Accuracy: 97.82%, Validation Loss: 1.1789, Validation Accuracy: 77.64%
+13290.0s 379 Epoch [327/500], Loss: 0.0727, Accuracy: 97.76%, Validation Loss: 1.0783, Validation Accuracy: 77.63%
+13328.3s 380 Epoch [328/500], Loss: 0.0650, Accuracy: 98.03%, Validation Loss: 1.0555, Validation Accuracy: 77.74%
+13366.6s 381 Epoch [329/500], Loss: 0.0737, Accuracy: 97.75%, Validation Loss: 1.2082, Validation Accuracy: 77.88%
+13404.9s 382 Epoch [330/500], Loss: 0.0705, Accuracy: 97.80%, Validation Loss: 1.1804, Validation Accuracy: 78.08%
+13443.3s 383 Epoch [331/500], Loss: 0.0713, Accuracy: 97.76%, Validation Loss: 1.1622, Validation Accuracy: 77.70%
+13481.6s 384 Epoch [332/500], Loss: 0.0712, Accuracy: 97.73%, Validation Loss: 1.1446, Validation Accuracy: 78.19%
+13520.0s 385 Epoch [333/500], Loss: 0.0664, Accuracy: 98.08%, Validation Loss: 1.2015, Validation Accuracy: 77.42%
+13558.2s 386 Epoch [334/500], Loss: 0.0706, Accuracy: 97.85%, Validation Loss: 1.1734, Validation Accuracy: 77.52%
+13596.6s 387 Epoch [335/500], Loss: 0.0763, Accuracy: 97.76%, Validation Loss: 0.9164, Validation Accuracy: 77.26%
+13635.0s 388 Epoch [336/500], Loss: 0.0724, Accuracy: 97.78%, Validation Loss: 1.1012, Validation Accuracy: 77.37%
+13673.4s 389 Epoch [337/500], Loss: 0.0696, Accuracy: 97.91%, Validation Loss: 1.0166, Validation Accuracy: 77.68%
+13711.7s 390 Epoch [338/500], Loss: 0.0688, Accuracy: 97.85%, Validation Loss: 1.2360, Validation Accuracy: 77.76%
+13750.0s 391 Epoch [339/500], Loss: 0.0683, Accuracy: 97.90%, Validation Loss: 1.0234, Validation Accuracy: 77.45%
+13788.4s 392 Epoch [340/500], Loss: 0.0682, Accuracy: 97.95%, Validation Loss: 1.0828, Validation Accuracy: 77.25%
+13826.6s 393 Epoch [341/500], Loss: 0.0691, Accuracy: 97.92%, Validation Loss: 1.0603, Validation Accuracy: 77.69%
+13864.9s 394 Epoch [342/500], Loss: 0.0654, Accuracy: 98.01%, Validation Loss: 1.1048, Validation Accuracy: 77.64%
+13903.3s 395 Epoch [343/500], Loss: 0.0656, Accuracy: 97.99%, Validation Loss: 1.0745, Validation Accuracy: 78.07%
+13941.6s 396 Epoch [344/500], Loss: 0.0714, Accuracy: 97.83%, Validation Loss: 1.0101, Validation Accuracy: 77.36%
+13979.9s 397 Epoch [345/500], Loss: 0.0653, Accuracy: 97.96%, Validation Loss: 1.0377, Validation Accuracy: 77.88%
+14018.3s 398 Epoch [346/500], Loss: 0.0698, Accuracy: 97.88%, Validation Loss: 1.0552, Validation Accuracy: 77.09%
+14056.6s 399 Epoch [347/500], Loss: 0.0661, Accuracy: 97.96%, Validation Loss: 1.0358, Validation Accuracy: 77.80%
+14094.9s 400 Epoch [348/500], Loss: 0.0705, Accuracy: 97.85%, Validation Loss: 1.1217, Validation Accuracy: 78.04%
+14133.1s 401 Epoch [349/500], Loss: 0.0651, Accuracy: 97.98%, Validation Loss: 1.1930, Validation Accuracy: 78.08%
+14171.4s 402 Epoch [350/500], Loss: 0.0689, Accuracy: 97.89%, Validation Loss: 1.1097, Validation Accuracy: 77.76%
+14209.7s 403 Epoch [351/500], Loss: 0.0674, Accuracy: 97.89%, Validation Loss: 1.0410, Validation Accuracy: 77.55%
+14248.1s 404 Epoch [352/500], Loss: 0.0711, Accuracy: 97.89%, Validation Loss: 1.1745, Validation Accuracy: 78.08%
+14286.4s 405 Epoch [353/500], Loss: 0.0694, Accuracy: 98.00%, Validation Loss: 1.0356, Validation Accuracy: 77.67%
+14324.7s 406 Epoch [354/500], Loss: 0.0672, Accuracy: 97.91%, Validation Loss: 1.3115, Validation Accuracy: 77.75%
+14363.0s 407 Epoch [355/500], Loss: 0.0660, Accuracy: 98.00%, Validation Loss: 1.0147, Validation Accuracy: 77.14%
+14401.2s 408 Epoch [356/500], Loss: 0.0658, Accuracy: 98.02%, Validation Loss: 1.2102, Validation Accuracy: 78.11%
+14439.5s 409 Epoch [357/500], Loss: 0.0641, Accuracy: 98.10%, Validation Loss: 1.2510, Validation Accuracy: 78.13%
+14477.8s 410 Epoch [358/500], Loss: 0.0694, Accuracy: 97.86%, Validation Loss: 1.0721, Validation Accuracy: 77.79%
+14516.1s 411 Epoch [359/500], Loss: 0.0667, Accuracy: 97.91%, Validation Loss: 1.2928, Validation Accuracy: 77.76%
+14554.4s 412 Epoch [360/500], Loss: 0.0668, Accuracy: 97.98%, Validation Loss: 1.3064, Validation Accuracy: 77.87%
+14592.6s 413 Epoch [361/500], Loss: 0.0624, Accuracy: 98.08%, Validation Loss: 1.3784, Validation Accuracy: 77.47%
+14630.8s 414 Epoch [362/500], Loss: 0.0655, Accuracy: 98.02%, Validation Loss: 1.1444, Validation Accuracy: 77.85%
+14669.1s 415 Epoch [363/500], Loss: 0.0650, Accuracy: 98.02%, Validation Loss: 1.2293, Validation Accuracy: 77.98%
+14707.4s 416 Epoch [364/500], Loss: 0.0647, Accuracy: 98.07%, Validation Loss: 1.2509, Validation Accuracy: 77.67%
+14745.7s 417 Epoch [365/500], Loss: 0.0655, Accuracy: 97.99%, Validation Loss: 1.3260, Validation Accuracy: 77.74%
+14783.9s 418 Epoch [366/500], Loss: 0.0670, Accuracy: 97.98%, Validation Loss: 1.0039, Validation Accuracy: 77.80%
+14822.2s 419 Epoch [367/500], Loss: 0.0698, Accuracy: 97.94%, Validation Loss: 1.0803, Validation Accuracy: 77.52%
+14860.5s 420 Epoch [368/500], Loss: 0.0638, Accuracy: 98.08%, Validation Loss: 0.9998, Validation Accuracy: 77.70%
+14898.8s 421 Epoch [369/500], Loss: 0.0635, Accuracy: 98.09%, Validation Loss: 1.1252, Validation Accuracy: 77.91%
+14937.0s 422 Epoch [370/500], Loss: 0.0671, Accuracy: 98.05%, Validation Loss: 1.0459, Validation Accuracy: 77.49%
+14975.3s 423 Epoch [371/500], Loss: 0.0657, Accuracy: 98.00%, Validation Loss: 1.1587, Validation Accuracy: 78.08%
+15013.5s 424 Epoch [372/500], Loss: 0.0670, Accuracy: 98.05%, Validation Loss: 1.1497, Validation Accuracy: 78.32%
+15013.5s 425 ✅ Best Model Saved with Validation Accuracy: 78.32%
+15051.9s 426 Epoch [373/500], Loss: 0.0638, Accuracy: 98.08%, Validation Loss: 1.0062, Validation Accuracy: 77.61%
+15090.2s 427 Epoch [374/500], Loss: 0.0662, Accuracy: 97.95%, Validation Loss: 1.2349, Validation Accuracy: 77.64%
+15128.4s 428 Epoch [375/500], Loss: 0.0681, Accuracy: 97.93%, Validation Loss: 1.2737, Validation Accuracy: 77.58%
+15166.7s 429 Epoch [376/500], Loss: 0.0665, Accuracy: 97.91%, Validation Loss: 1.2535, Validation Accuracy: 77.94%
+15205.0s 430 Epoch [377/500], Loss: 0.0585, Accuracy: 98.17%, Validation Loss: 1.1487, Validation Accuracy: 77.26%
+15243.3s 431 Epoch [378/500], Loss: 0.0637, Accuracy: 98.16%, Validation Loss: 1.0851, Validation Accuracy: 77.75%
+15281.5s 432 Epoch [379/500], Loss: 0.0646, Accuracy: 98.02%, Validation Loss: 1.1582, Validation Accuracy: 77.51%
+15319.7s 433 Epoch [380/500], Loss: 0.0623, Accuracy: 98.06%, Validation Loss: 1.0376, Validation Accuracy: 78.28%
+15358.0s 434 Epoch [381/500], Loss: 0.0609, Accuracy: 98.14%, Validation Loss: 1.0951, Validation Accuracy: 77.90%
+15396.3s 435 Epoch [382/500], Loss: 0.0650, Accuracy: 98.09%, Validation Loss: 1.1026, Validation Accuracy: 77.57%
+15434.6s 436 Epoch [383/500], Loss: 0.0618, Accuracy: 98.14%, Validation Loss: 1.2177, Validation Accuracy: 77.71%
+15472.9s 437 Epoch [384/500], Loss: 0.0614, Accuracy: 98.16%, Validation Loss: 1.1076, Validation Accuracy: 77.79%
+15511.2s 438 Epoch [385/500], Loss: 0.0685, Accuracy: 97.99%, Validation Loss: 1.0738, Validation Accuracy: 77.44%
+15549.5s 439 Epoch [386/500], Loss: 0.0646, Accuracy: 97.98%, Validation Loss: 1.1809, Validation Accuracy: 77.40%
+15587.7s 440 Epoch [387/500], Loss: 0.0632, Accuracy: 98.06%, Validation Loss: 1.2068, Validation Accuracy: 76.56%
+15626.0s 441 Epoch [388/500], Loss: 0.0633, Accuracy: 98.13%, Validation Loss: 1.1166, Validation Accuracy: 77.04%
+15664.3s 442 Epoch [389/500], Loss: 0.0612, Accuracy: 98.11%, Validation Loss: 1.0662, Validation Accuracy: 77.81%
+15702.6s 443 Epoch [390/500], Loss: 0.0626, Accuracy: 98.06%, Validation Loss: 0.9976, Validation Accuracy: 77.72%
+15740.8s 444 Epoch [391/500], Loss: 0.0594, Accuracy: 98.11%, Validation Loss: 1.1941, Validation Accuracy: 77.84%
+15779.1s 445 Epoch [392/500], Loss: 0.0621, Accuracy: 98.05%, Validation Loss: 1.1470, Validation Accuracy: 78.64%
+15779.1s 446 ✅ Best Model Saved with Validation Accuracy: 78.64%
+15817.5s 447 Epoch [393/500], Loss: 0.0622, Accuracy: 98.17%, Validation Loss: 1.2656, Validation Accuracy: 77.97%
+15855.8s 448 Epoch [394/500], Loss: 0.0632, Accuracy: 98.11%, Validation Loss: 1.2929, Validation Accuracy: 77.96%
+15894.1s 449 Epoch [395/500], Loss: 0.0610, Accuracy: 98.21%, Validation Loss: 1.1748, Validation Accuracy: 78.20%
+15932.3s 450 Epoch [396/500], Loss: 0.0609, Accuracy: 98.15%, Validation Loss: 1.2635, Validation Accuracy: 76.82%
+15970.5s 451 Epoch [397/500], Loss: 0.0606, Accuracy: 98.14%, Validation Loss: 1.2167, Validation Accuracy: 77.83%
+16008.8s 452 Epoch [398/500], Loss: 0.0591, Accuracy: 98.26%, Validation Loss: 1.0187, Validation Accuracy: 77.82%
+16047.1s 453 Epoch [399/500], Loss: 0.0615, Accuracy: 98.10%, Validation Loss: 1.1108, Validation Accuracy: 77.53%
+16085.3s 454 Epoch [400/500], Loss: 0.0618, Accuracy: 98.16%, Validation Loss: 1.1997, Validation Accuracy: 77.85%
+16123.7s 455 Epoch [401/500], Loss: 0.0623, Accuracy: 98.02%, Validation Loss: 1.1821, Validation Accuracy: 78.03%
+16161.9s 456 Epoch [402/500], Loss: 0.0609, Accuracy: 98.15%, Validation Loss: 1.1211, Validation Accuracy: 77.69%
+16200.2s 457 Epoch [403/500], Loss: 0.0599, Accuracy: 98.22%, Validation Loss: 1.1804, Validation Accuracy: 78.13%
+16238.5s 458 Epoch [404/500], Loss: 0.0593, Accuracy: 98.26%, Validation Loss: 1.2719, Validation Accuracy: 77.42%
+16276.7s 459 Epoch [405/500], Loss: 0.0639, Accuracy: 98.09%, Validation Loss: 1.0235, Validation Accuracy: 77.15%
+16315.0s 460 Epoch [406/500], Loss: 0.0576, Accuracy: 98.26%, Validation Loss: 1.0595, Validation Accuracy: 78.31%
+16353.3s 461 Epoch [407/500], Loss: 0.0621, Accuracy: 98.09%, Validation Loss: 1.3606, Validation Accuracy: 77.56%
+16391.5s 462 Epoch [408/500], Loss: 0.0644, Accuracy: 98.06%, Validation Loss: 1.1397, Validation Accuracy: 78.18%
+16429.8s 463 Epoch [409/500], Loss: 0.0594, Accuracy: 98.26%, Validation Loss: 1.1286, Validation Accuracy: 77.86%
+16468.0s 464 Epoch [410/500], Loss: 0.0609, Accuracy: 98.22%, Validation Loss: 1.1568, Validation Accuracy: 77.78%
+16506.3s 465 Epoch [411/500], Loss: 0.0586, Accuracy: 98.14%, Validation Loss: 1.2345, Validation Accuracy: 78.05%
+16544.6s 466 Epoch [412/500], Loss: 0.0614, Accuracy: 98.13%, Validation Loss: 1.3840, Validation Accuracy: 77.31%
+16582.9s 467 Epoch [413/500], Loss: 0.0574, Accuracy: 98.25%, Validation Loss: 1.2235, Validation Accuracy: 77.73%
+16621.2s 468 Epoch [414/500], Loss: 0.0604, Accuracy: 98.17%, Validation Loss: 1.0710, Validation Accuracy: 77.66%
+16659.6s 469 Epoch [415/500], Loss: 0.0573, Accuracy: 98.29%, Validation Loss: 1.3020, Validation Accuracy: 77.66%
+16697.8s 470 Epoch [416/500], Loss: 0.0634, Accuracy: 98.10%, Validation Loss: 1.0929, Validation Accuracy: 77.39%
+16736.1s 471 Epoch [417/500], Loss: 0.0559, Accuracy: 98.35%, Validation Loss: 1.1238, Validation Accuracy: 78.11%
+16774.4s 472 Epoch [418/500], Loss: 0.0600, Accuracy: 98.22%, Validation Loss: 1.2166, Validation Accuracy: 78.42%
+16812.8s 473 Epoch [419/500], Loss: 0.0585, Accuracy: 98.19%, Validation Loss: 1.2434, Validation Accuracy: 78.01%
+16851.0s 474 Epoch [420/500], Loss: 0.0579, Accuracy: 98.26%, Validation Loss: 1.1702, Validation Accuracy: 78.05%
+16889.2s 475 Epoch [421/500], Loss: 0.0595, Accuracy: 98.24%, Validation Loss: 1.1936, Validation Accuracy: 77.77%
+16927.5s 476 Epoch [422/500], Loss: 0.0564, Accuracy: 98.26%, Validation Loss: 1.2639, Validation Accuracy: 77.50%
+16965.8s 477 Epoch [423/500], Loss: 0.0601, Accuracy: 98.19%, Validation Loss: 1.1576, Validation Accuracy: 77.18%
+17004.1s 478 Epoch [424/500], Loss: 0.0623, Accuracy: 98.13%, Validation Loss: 1.0740, Validation Accuracy: 77.37%
+17042.4s 479 Epoch [425/500], Loss: 0.0548, Accuracy: 98.39%, Validation Loss: 1.2433, Validation Accuracy: 77.37%
+17080.6s 480 Epoch [426/500], Loss: 0.0558, Accuracy: 98.36%, Validation Loss: 1.2529, Validation Accuracy: 77.71%
+17118.8s 481 Epoch [427/500], Loss: 0.0603, Accuracy: 98.19%, Validation Loss: 1.1080, Validation Accuracy: 77.72%
+17157.1s 482 Epoch [428/500], Loss: 0.0587, Accuracy: 98.27%, Validation Loss: 1.3468, Validation Accuracy: 77.67%
+17195.3s 483 Epoch [429/500], Loss: 0.0583, Accuracy: 98.21%, Validation Loss: 1.3227, Validation Accuracy: 78.33%
+17233.6s 484 Epoch [430/500], Loss: 0.0600, Accuracy: 98.24%, Validation Loss: 1.1519, Validation Accuracy: 78.10%
+17271.8s 485 Epoch [431/500], Loss: 0.0560, Accuracy: 98.25%, Validation Loss: 1.1293, Validation Accuracy: 78.30%
+17310.1s 486 Epoch [432/500], Loss: 0.0575, Accuracy: 98.32%, Validation Loss: 1.1076, Validation Accuracy: 77.90%
+17348.5s 487 Epoch [433/500], Loss: 0.0574, Accuracy: 98.29%, Validation Loss: 1.0328, Validation Accuracy: 78.38%
+17386.7s 488 Epoch [434/500], Loss: 0.0567, Accuracy: 98.26%, Validation Loss: 1.0928, Validation Accuracy: 77.95%
+17425.0s 489 Epoch [435/500], Loss: 0.0536, Accuracy: 98.40%, Validation Loss: 1.2315, Validation Accuracy: 78.15%
+17463.3s 490 Epoch [436/500], Loss: 0.0554, Accuracy: 98.40%, Validation Loss: 1.1672, Validation Accuracy: 78.01%
+17501.5s 491 Epoch [437/500], Loss: 0.0548, Accuracy: 98.29%, Validation Loss: 1.2111, Validation Accuracy: 78.50%
+17539.9s 492 Epoch [438/500], Loss: 0.0583, Accuracy: 98.27%, Validation Loss: 1.1227, Validation Accuracy: 77.85%
+17578.2s 493 Epoch [439/500], Loss: 0.0583, Accuracy: 98.23%, Validation Loss: 1.0110, Validation Accuracy: 78.24%
+17616.5s 494 Epoch [440/500], Loss: 0.0566, Accuracy: 98.41%, Validation Loss: 1.1095, Validation Accuracy: 77.97%
+17654.8s 495 Epoch [441/500], Loss: 0.0547, Accuracy: 98.32%, Validation Loss: 1.3155, Validation Accuracy: 77.96%
+17693.0s 496 Epoch [442/500], Loss: 0.0563, Accuracy: 98.41%, Validation Loss: 0.9587, Validation Accuracy: 78.27%
+17731.3s 497 Epoch [443/500], Loss: 0.0540, Accuracy: 98.36%, Validation Loss: 1.1523, Validation Accuracy: 78.11%
+17769.6s 498 Epoch [444/500], Loss: 0.0544, Accuracy: 98.31%, Validation Loss: 1.0815, Validation Accuracy: 78.21%
+17807.8s 499 Epoch [445/500], Loss: 0.0557, Accuracy: 98.36%, Validation Loss: 1.1213, Validation Accuracy: 77.94%
+17846.0s 500 Epoch [446/500], Loss: 0.0562, Accuracy: 98.33%, Validation Loss: 1.2645, Validation Accuracy: 77.79%
+17884.3s 501 Epoch [447/500], Loss: 0.0609, Accuracy: 98.14%, Validation Loss: 1.0540, Validation Accuracy: 77.78%
+17922.7s 502 Epoch [448/500], Loss: 0.0539, Accuracy: 98.38%, Validation Loss: 1.0779, Validation Accuracy: 77.76%
+17961.0s 503 Epoch [449/500], Loss: 0.0518, Accuracy: 98.41%, Validation Loss: 1.3006, Validation Accuracy: 78.28%
+17999.2s 504 Epoch [450/500], Loss: 0.0635, Accuracy: 98.19%, Validation Loss: 1.1432, Validation Accuracy: 78.03%
+18037.4s 505 Epoch [451/500], Loss: 0.0530, Accuracy: 98.39%, Validation Loss: 1.2474, Validation Accuracy: 78.18%
+18075.7s 506 Epoch [452/500], Loss: 0.0557, Accuracy: 98.29%, Validation Loss: 1.3966, Validation Accuracy: 78.05%
+18114.0s 507 Epoch [453/500], Loss: 0.0564, Accuracy: 98.30%, Validation Loss: 1.0763, Validation Accuracy: 77.73%
+18152.2s 508 Epoch [454/500], Loss: 0.0564, Accuracy: 98.28%, Validation Loss: 1.2080, Validation Accuracy: 76.88%
+18190.6s 509 Epoch [455/500], Loss: 0.0579, Accuracy: 98.24%, Validation Loss: 1.1324, Validation Accuracy: 77.53%
+18228.8s 510 Epoch [456/500], Loss: 0.0573, Accuracy: 98.32%, Validation Loss: 0.9410, Validation Accuracy: 77.96%
+18267.1s 511 Epoch [457/500], Loss: 0.0531, Accuracy: 98.36%, Validation Loss: 1.4637, Validation Accuracy: 77.35%
+18305.3s 512 Epoch [458/500], Loss: 0.0596, Accuracy: 98.24%, Validation Loss: 1.1376, Validation Accuracy: 78.13%
+18343.6s 513 Epoch [459/500], Loss: 0.0547, Accuracy: 98.36%, Validation Loss: 1.1161, Validation Accuracy: 77.98%
+18382.0s 514 Epoch [460/500], Loss: 0.0564, Accuracy: 98.32%, Validation Loss: 1.2309, Validation Accuracy: 77.51%
+18420.2s 515 Epoch [461/500], Loss: 0.0534, Accuracy: 98.45%, Validation Loss: 1.2320, Validation Accuracy: 77.55%
+18458.5s 516 Epoch [462/500], Loss: 0.0545, Accuracy: 98.34%, Validation Loss: 1.3388, Validation Accuracy: 77.81%
+18496.8s 517 Epoch [463/500], Loss: 0.0550, Accuracy: 98.41%, Validation Loss: 1.0844, Validation Accuracy: 77.95%
+18535.2s 518 Epoch [464/500], Loss: 0.0575, Accuracy: 98.31%, Validation Loss: 1.1846, Validation Accuracy: 78.30%
+18573.6s 519 Epoch [465/500], Loss: 0.0542, Accuracy: 98.41%, Validation Loss: 1.0831, Validation Accuracy: 77.26%
+18611.8s 520 Epoch [466/500], Loss: 0.0597, Accuracy: 98.21%, Validation Loss: 1.0402, Validation Accuracy: 77.76%
+18650.1s 521 Epoch [467/500], Loss: 0.0503, Accuracy: 98.45%, Validation Loss: 1.2106, Validation Accuracy: 77.65%
+18688.4s 522 Epoch [468/500], Loss: 0.0551, Accuracy: 98.35%, Validation Loss: 1.2580, Validation Accuracy: 78.19%
+18726.6s 523 Epoch [469/500], Loss: 0.0545, Accuracy: 98.37%, Validation Loss: 1.1101, Validation Accuracy: 77.51%
+18765.0s 524 Epoch [470/500], Loss: 0.0595, Accuracy: 98.23%, Validation Loss: 1.0267, Validation Accuracy: 78.04%
+18803.2s 525 Epoch [471/500], Loss: 0.0517, Accuracy: 98.45%, Validation Loss: 1.2710, Validation Accuracy: 77.97%
+18841.6s 526 Epoch [472/500], Loss: 0.0545, Accuracy: 98.36%, Validation Loss: 1.2067, Validation Accuracy: 77.94%
+18879.8s 527 Epoch [473/500], Loss: 0.0582, Accuracy: 98.23%, Validation Loss: 1.2029, Validation Accuracy: 77.84%
+18918.1s 528 Epoch [474/500], Loss: 0.0544, Accuracy: 98.37%, Validation Loss: 1.0927, Validation Accuracy: 76.99%
+18956.4s 529 Epoch [475/500], Loss: 0.0544, Accuracy: 98.31%, Validation Loss: 1.1680, Validation Accuracy: 78.08%
+18994.6s 530 Epoch [476/500], Loss: 0.0522, Accuracy: 98.37%, Validation Loss: 1.2003, Validation Accuracy: 77.58%
+19032.9s 531 Epoch [477/500], Loss: 0.0545, Accuracy: 98.43%, Validation Loss: 1.1636, Validation Accuracy: 77.40%
+19071.2s 532 Epoch [478/500], Loss: 0.0545, Accuracy: 98.39%, Validation Loss: 1.1274, Validation Accuracy: 77.84%
+19109.5s 533 Epoch [479/500], Loss: 0.0535, Accuracy: 98.36%, Validation Loss: 1.0544, Validation Accuracy: 78.14%
+19147.8s 534 Epoch [480/500], Loss: 0.0559, Accuracy: 98.43%, Validation Loss: 1.2357, Validation Accuracy: 78.30%
+19186.0s 535 Epoch [481/500], Loss: 0.0488, Accuracy: 98.48%, Validation Loss: 1.0258, Validation Accuracy: 77.93%
+19224.3s 536 Epoch [482/500], Loss: 0.0516, Accuracy: 98.43%, Validation Loss: 1.1279, Validation Accuracy: 78.07%
+19262.6s 537 Epoch [483/500], Loss: 0.0555, Accuracy: 98.31%, Validation Loss: 1.2740, Validation Accuracy: 78.52%
+19300.8s 538 Epoch [484/500], Loss: 0.0511, Accuracy: 98.44%, Validation Loss: 1.1146, Validation Accuracy: 77.66%
+19339.0s 539 Epoch [485/500], Loss: 0.0515, Accuracy: 98.47%, Validation Loss: 1.0704, Validation Accuracy: 78.12%
+19377.4s 540 Epoch [486/500], Loss: 0.0523, Accuracy: 98.50%, Validation Loss: 1.0209, Validation Accuracy: 78.14%
+19415.7s 541 Epoch [487/500], Loss: 0.0492, Accuracy: 98.48%, Validation Loss: 1.1832, Validation Accuracy: 77.97%
+19454.0s 542 Epoch [488/500], Loss: 0.0518, Accuracy: 98.41%, Validation Loss: 1.3723, Validation Accuracy: 77.87%
+19492.2s 543 Epoch [489/500], Loss: 0.0535, Accuracy: 98.41%, Validation Loss: 1.2779, Validation Accuracy: 78.26%
+19530.5s 544 Epoch [490/500], Loss: 0.0543, Accuracy: 98.42%, Validation Loss: 1.1970, Validation Accuracy: 77.93%
+19568.8s 545 Epoch [491/500], Loss: 0.0522, Accuracy: 98.44%, Validation Loss: 1.0581, Validation Accuracy: 77.86%
+19607.0s 546 Epoch [492/500], Loss: 0.0505, Accuracy: 98.48%, Validation Loss: 1.0911, Validation Accuracy: 77.70%
+19645.3s 547 Epoch [493/500], Loss: 0.0557, Accuracy: 98.35%, Validation Loss: 1.2351, Validation Accuracy: 77.85%
+19683.5s 548 Epoch [494/500], Loss: 0.0508, Accuracy: 98.55%, Validation Loss: 1.1707, Validation Accuracy: 78.13%
+19721.7s 549 Epoch [495/500], Loss: 0.0519, Accuracy: 98.46%, Validation Loss: 1.1964, Validation Accuracy: 77.98%
+19760.0s 550 Epoch [496/500], Loss: 0.0524, Accuracy: 98.37%, Validation Loss: 1.1453, Validation Accuracy: 78.12%
+19798.2s 551 Epoch [497/500], Loss: 0.0508, Accuracy: 98.41%, Validation Loss: 1.0428, Validation Accuracy: 78.40%
+19836.5s 552 Epoch [498/500], Loss: 0.0516, Accuracy: 98.47%, Validation Loss: 1.1380, Validation Accuracy: 78.36%
+19874.7s 553 Epoch [499/500], Loss: 0.0508, Accuracy: 98.47%, Validation Loss: 1.1214, Validation Accuracy: 77.60%
+19912.8s 554 Epoch [500/500], Loss: 0.0553, Accuracy: 98.38%, Validation Loss: 1.2660, Validation Accuracy: 78.39%
+19912.8s 555 Final Training -> Best Accuracy: 78.64, Loss: 1.15 with Best Configuration
+19913.1s 556 <ipython-input-19-9cf514b89097>:2: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+19913.1s 557 model.load_state_dict(torch.load("bestModel.pth"))
+19915.5s 558 Test Loss: 1.2146
+19915.5s 559 Test Accuracy: 77.72%
+19918.7s 560 /usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+19918.7s 561 warn(
+19918.7s 562 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+19919.1s 563 [NbConvertApp] Writing 97788 bytes to __notebook__.ipynb
+19920.3s 564 /usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+19920.3s 565 warn(
+19920.3s 566 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+19921.1s 567 [NbConvertApp] Writing 401230 bytes to __results__.html
