@@ -1,4 +1,4 @@
-# Deep-Learning-Lab
+# Deep Learning Lab
 
 **Lab 1: Experiment 1:** In this experiment, we implemented a fully connected neural network for classifying digits from the MNIST dataset using NumPy. It demonstrates data preprocessing, model training with forward and backward propagation, and evaluation using accuracy and loss metrics. We also used data augmentation methods like random rotation and horizontal flipping to improve generalization.
 
