@@ -1,0 +1,84 @@
+5.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+5.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+5.9s 3 0.00s - to python to disable frozen modules.
+5.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+6.7s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.7s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.7s 7 0.00s - to python to disable frozen modules.
+6.7s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.9s 9 Creating Tensors
+12.9s 10 1D PyTorch: tensor([1, 2, 3])
+12.9s 11 2D PyTorch:
+12.9s 12 tensor([[1, 2],
+12.9s 13 [3, 4]])
+12.9s 14 3D PyTorch:
+12.9s 15 tensor([[[1, 2],
+12.9s 16 [3, 4]],
+12.9s 17 
+12.9s 18 [[5, 6],
+12.9s 19 [7, 8]]])
+12.9s 20 1D NumPy: [1 2 3]
+12.9s 21 2D NumPy:
+12.9s 22 [[1 2]
+12.9s 23 [3 4]]
+12.9s 24 3D NumPy:
+12.9s 25 [[[1 2]
+12.9s 26 [3 4]]
+12.9s 27 
+12.9s 28 [[5 6]
+12.9s 29 [7 8]]]
+13.0s 30 Basic Operations
+13.0s 31 Addition: tensor([5., 7., 9.])
+13.0s 32 Subtraction: tensor([-3., -3., -3.])
+13.0s 33 Multiplication: tensor([ 4., 10., 18.])
+13.0s 34 Division: tensor([0.2500, 0.4000, 0.5000])
+13.0s 35 Dot Product and Matrix Multiplication
+13.0s 36 Dot Product: 32
+13.0s 37 Matrix Multiplication:
+13.0s 38 tensor([[19, 22],
+13.0s 39 [43, 50]])
+13.0s 40 Indexing and Slicing
+13.0s 41 Original Tensor:
+13.0s 42 tensor([[10, 20, 30],
+13.0s 43 [40, 50, 60]])
+13.0s 44 Element [1,2]: 60
+13.0s 45 First Row: tensor([10, 20, 30])
+13.0s 46 Boolean Masking > 30: tensor([40, 50, 60])
+13.0s 47 Extracted Subtensor: tensor([[20, 30],
+13.0s 48 [50, 60]])
+13.0s 49 Reshaping Tensors
+13.0s 50 Original x: tensor([0, 1, 2, 3, 4, 5])
+13.0s 51 x.view(2, 3):
+13.0s 52 tensor([[0, 1, 2],
+13.0s 53 [3, 4, 5]])
+13.0s 54 x.reshape(2, 3):
+13.0s 55 tensor([[0, 1, 2],
+13.0s 56 [3, 4, 5]])
+13.0s 57 Unsqueeze y (add dim 0):
+13.0s 58 tensor([[[1, 2],
+13.0s 59 [3, 4]]])
+13.0s 60 Squeeze y (remove dim):
+13.0s 61 tensor([[1, 2],
+13.0s 62 [3, 4]])
+13.0s 63 NumPy Reshape:
+13.0s 64 [[0 1 2]
+13.0s 65 [3 4 5]]
+13.1s 66 Broadcasting
+13.1s 67 a shape: torch.Size([3, 1]), b shape: torch.Size([3])
+13.1s 68 Broadcasted Addition:
+13.1s 69 tensor([[11, 21, 31],
+13.1s 70 [12, 22, 32],
+13.1s 71 [13, 23, 33]])
+13.1s 72 In-place vs Out-of-place Operations
+13.1s 73 Original t: tensor([1., 2., 3.])
+13.1s 74 t + 2 (Out-of-place): tensor([3., 4., 5.])
+13.1s 75 t after out-of-place: tensor([1., 2., 3.])
+13.1s 76 t after add_ (In-place): tensor([3., 4., 5.])
+16.3s 77 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+16.3s 78 warn(
+16.4s 79 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+16.6s 80 [NbConvertApp] Writing 15732 bytes to __notebook__.ipynb
+17.9s 81 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+17.9s 82 warn(
+17.9s 83 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+18.6s 84 [NbConvertApp] Writing 298914 bytes to __results__.html
